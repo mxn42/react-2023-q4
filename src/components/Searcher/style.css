@@ -1,0 +1,22 @@
+.searcher {
+  display: flex;
+  min-height: 100%;
+  min-width: 100%;
+  flex-flow: column nowrap;
+}
+
+.searcher > .searcher-query {
+  padding: 32px;
+}
+
+.searcher > .searcher-results {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 32px;
+}
+
+.searcher .loading {
+  width: 200px;
+}

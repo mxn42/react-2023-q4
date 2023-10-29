@@ -1,0 +1,33 @@
+.searcher-results-item {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.searcher-results-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.searcher-results-item > h3 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 140%;
+  padding: 5px;
+  background-color: #00000099;
+}
+
+.searcher-results-item > p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 200%;
+  padding: 5px;
+  background-color: #00000099;
+  text-align: center;
+}
